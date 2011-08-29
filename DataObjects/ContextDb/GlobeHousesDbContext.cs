@@ -13,6 +13,10 @@ namespace DataObjects.ContextDb
         /// Costumer
         public DbSet<CostumerBase> CostumersBase { get; set; }
         public DbSet<Costumer> Costumers { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        public DbSet<House> Houses { get; set; }
+
+
 
     }
 }
