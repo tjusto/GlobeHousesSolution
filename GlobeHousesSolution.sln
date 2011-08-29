@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontend", "Frontend\Frontend.csproj", "{B6B314D7-9AC8-4D3D-81A3-565F4FBECA0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{17DCD86F-9533-4FA1-A1EA-B988E60B2535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataObjects", "DataObjects\DataObjects.csproj", "{7BBF0232-CF22-40A8-930D-782B495514D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6B314D7-9AC8-4D3D-81A3-565F4FBECA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B314D7-9AC8-4D3D-81A3-565F4FBECA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B314D7-9AC8-4D3D-81A3-565F4FBECA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B314D7-9AC8-4D3D-81A3-565F4FBECA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBF0232-CF22-40A8-930D-782B495514D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBF0232-CF22-40A8-930D-782B495514D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBF0232-CF22-40A8-930D-782B495514D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBF0232-CF22-40A8-930D-782B495514D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BBF0232-CF22-40A8-930D-782B495514D3} = {17DCD86F-9533-4FA1-A1EA-B988E60B2535}
+	EndGlobalSection
+EndGlobal
