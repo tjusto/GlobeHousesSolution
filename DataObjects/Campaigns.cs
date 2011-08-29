@@ -12,7 +12,7 @@ namespace DataObjects
         public virtual int Id { get; set; }
         public virtual ICollection<Translation> Teaser { get; set; }
         public virtual DateTime StartDate { get; set; }
-        public virtual DateTime EndDat { get; set; }
+        public virtual DateTime EndDate { get; set; }
        
     }
 }
