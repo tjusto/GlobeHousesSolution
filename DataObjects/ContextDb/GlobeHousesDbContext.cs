@@ -15,6 +15,6 @@ namespace DataObjects.ContextDb
         public DbSet<Costumer> Costumers { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<House> Houses { get; set; }
-        // github 3
+        // bla bla bla 4
     }
 }
